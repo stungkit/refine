@@ -7,7 +7,6 @@
 
 require("dotenv").config();
 
-const redirectJson = require("./redirects.json");
 const tutorialData = require("./tutorial-units");
 const thumbsUpDownFeedbackWidget = require("./plugins/thumbs-up-down-feedback-widget");
 const path = require("path");
@@ -42,7 +41,8 @@ const siteConfig = {
   projectName: "refine",
   organizationName: "refinedev",
   trailingSlash: true,
-  favicon: "img/favicon.ico",
+  favicon: "assets/favicon.ico",
+  onBrokenLinks: "warn",
   scripts: [
     "https://platform.twitter.com/widgets.js",
     {
@@ -76,6 +76,7 @@ const siteConfig = {
           ? false
           : {
               path: "./docs",
+              routeBasePath: "/core/docs",
               sidebarPath: require.resolve("./sidebars.js"),
               editUrl:
                 "https://github.com/refinedev/refine/tree/main/documentation",
@@ -88,9 +89,11 @@ const siteConfig = {
                   : {
                       "4.xx.xx": {
                         label: "4.xx.xx",
+                        noIndex: true,
                       },
                       "3.xx.xx": {
                         label: "3.xx.xx",
+                        noIndex: true,
                       },
                     }),
                 current: {
@@ -138,20 +141,6 @@ const siteConfig = {
   ],
   plugins: [
     [
-      "@docusaurus/plugin-client-redirects",
-      {
-        redirects: redirectJson.redirects,
-        createRedirects(existingPath) {
-          if (existingPath.includes("/api-reference/core/")) {
-            return [
-              existingPath.replace("/api-reference/core/", "/api-references/"),
-            ];
-          }
-          return undefined; // Return a falsy value: no redirect created
-        },
-      },
-    ],
-    [
       "docusaurus-plugin-copy",
       {
         id: "Copy Workers",
@@ -187,7 +176,7 @@ const siteConfig = {
               blogSidebarCount: 0,
               feedOptions: {
                 type: "all",
-                copyright: `Copyright © ${new Date().getFullYear()} refine.`,
+                copyright: `Copyright © ${new Date().getFullYear()} Refine.`,
               },
             },
           ],
@@ -195,14 +184,13 @@ const siteConfig = {
     "./plugins/clarity.js",
     "./plugins/ahref.js",
     "./plugins/templates.js",
-    "./plugins/example-redirects.js",
     "./plugins/tutorial-navigation.js",
     [
       "@docusaurus/plugin-content-docs",
       {
         id: "tutorial",
-        path: "tutorial",
-        routeBasePath: "tutorial",
+        path: "./tutorial",
+        routeBasePath: "/core/tutorial",
         sidebarPath: false,
         docLayoutComponent: "@theme/TutorialPage",
         docItemComponent: "@theme/TutorialItem",
@@ -310,11 +298,11 @@ const siteConfig = {
           items: [
             {
               label: "Getting Started",
-              to: "docs",
+              to: "/core/docs",
             },
             {
               label: "Tutorials",
-              to: "tutorial",
+              to: "/core/tutorial",
             },
             {
               label: "Blog",
@@ -327,15 +315,11 @@ const siteConfig = {
           items: [
             {
               label: "Examples",
-              to: "examples",
+              to: "/core/docs/examples",
             },
             {
               label: "Integrations",
-              to: "integrations",
-            },
-            {
-              label: "Become an Expert",
-              to: "become-a-refine-expert",
+              to: "/core/integrations",
             },
           ],
         },
@@ -344,7 +328,7 @@ const siteConfig = {
           items: [
             {
               label: "About",
-              to: "about",
+              to: "/about",
             },
           ],
         },
@@ -355,18 +339,6 @@ const siteConfig = {
               label: "License",
               to: "https://github.com/refinedev/refine/blob/main/LICENSE",
             },
-            // {
-            //     label: "Terms",
-            //     to: "/enterprise",
-            // },
-            // {
-            //     label: "Privacy",
-            //     to: "/privacy-policy",
-            // },
-            // {
-            //     label: "info@refine.dev",
-            //     to: "mailto:info@refine.dev",
-            // },
           ],
         },
         {
@@ -412,7 +384,7 @@ const siteConfig = {
     contactTitle: "Contact",
     contactDescription: [
       "Refine Development Inc.",
-      "256 Chapman Road STE 105-4 Newark, DE 19702",
+      "447 Sutter St 405 San Francisco",
     ],
     contactEmail: "info@refine.dev",
     /** ---- */

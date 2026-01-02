@@ -30,7 +30,7 @@ export default function BlogListPaginator(props) {
         description: "The ARIA label for the blog pagination",
       })}
     >
-      <ul className="flex list-none items-center gap-3 py-6">
+      <ul className="flex list-none items-center gap-2 py-6">
         <li>
           <Link
             to={
@@ -41,9 +41,10 @@ export default function BlogListPaginator(props) {
                   : `${basePath}/page/${currentPage - 1}`
             }
             className={clsx(
-              "rounded-full",
+              "rounded-lg",
               "hover:no-underline",
-              "text-refine-react-5 dark:text-refine-react-4",
+              "text-zinc-600 dark:text-zinc-400",
+              "hover:text-zinc-900 dark:hover:text-white",
               currentPage !== 1 && "opacity-70",
               currentPage === 1 && "pointer-events-none opacity-20",
             )}
@@ -59,11 +60,11 @@ export default function BlogListPaginator(props) {
                 key={`page:${pageNumber}`}
                 className={clsx(
                   "flex items-center justify-center",
-                  "text-gray-500 dark:text-gray-400",
-                  "rounded-full",
+                  "text-zinc-600 dark:text-zinc-400",
+                  "rounded-lg",
                   "hover:no-underline",
                   "no-underline",
-                  "h-[32px] w-[32px]",
+                  "h-[40px] w-[40px]",
                 )}
               >
                 &#8230;
@@ -80,16 +81,16 @@ export default function BlogListPaginator(props) {
                 className={clsx(
                   "text-sm",
                   "flex items-center justify-center",
-                  "rounded-full",
+                  "rounded-lg",
                   "hover:no-underline",
-                  "h-[32px] w-[32px]",
+                  "hover:text-zinc-900 dark:hover:text-white",
+                  "hover:bg-zinc-200 dark:hover:bg-zinc-700",
+                  "h-[40px] w-[40px]",
                   "no-underline",
                   pageNumber !== currentPage &&
-                    "text-refine-react-5 dark:text-refine-react-4",
-                  pageNumber === currentPage &&
-                    "text-refine-react-8 dark:text-refine-react-3",
-                  pageNumber === currentPage &&
-                    "bg-refine-react-3 dark:bg-refine-react-7",
+                    "text-zinc-600 dark:text-zinc-400",
+                  pageNumber === currentPage && "text-zinc-900 dark:text-white",
+                  pageNumber === currentPage && "bg-zinc-200 dark:bg-zinc-800",
                 )}
               >
                 {pageNumber}
@@ -106,9 +107,10 @@ export default function BlogListPaginator(props) {
                 : `${basePath}/page/${currentPage + 1}`
             }
             className={clsx(
-              "rounded-full",
+              "rounded-lg",
               "hover:no-underline",
-              "text-refine-react-5 dark:text-refine-react-4",
+              "text-zinc-600 dark:text-zinc-400",
+              "hover:text-zinc-900 dark:hover:text-white",
               currentPage !== lastPage && "opacity-70",
               currentPage === lastPage && "pointer-events-none opacity-20",
             )}

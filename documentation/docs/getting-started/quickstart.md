@@ -20,7 +20,7 @@ npm create refine-app@latest
 ```
 
 <figure>
-   <img className="w-full rounded-lg border border-solid border-gray-200 dark:border-gray-700" src="https://refine.ams3.cdn.digitaloceanspaces.com/website/static/assets/refine-vite-mui-rest-auth-screenshot.webp" alt="Example result" />
+   <img className="w-full rounded-lg border border-solid border-zinc-200 dark:border-zinc-700" src="https://refine.ams3.cdn.digitaloceanspaces.com/website/static/assets/refine-vite-mui-rest-auth-screenshot.webp" alt="Example result" />
     <figcaption className="text-center">A Refine app created with CLI using Vite + Material UI + REST API + Custom Auth Provider</figcaption>
 </figure>
 
@@ -32,8 +32,8 @@ Refine's browser-based scaffolder has the same set of options as the CLI-based s
 
 ## Next Steps
 
-👉 Jump to [Tutorials](/tutorial) and continue your work to turn your example project into a full-blown CRUD application! 🚀
+👉 Jump to [Tutorials](/core/tutorial) and continue your work to turn your example project into a full-blown CRUD application! 🚀
 
-👉 See [real-life examples](/templates) built using **Refine**
+👉 See [real-life examples](/core/templates) built using **Refine**
 
-👉 Check out the [General Concepts](/docs/guides-concepts/general-concepts) and [Data Fetching](/docs/guides-concepts/data-fetching) guides to start learning Refine.
+👉 Check out the [General Concepts](/core/docs/guides-concepts/general-concepts) and [Data Fetching](/core/docs/guides-concepts/data-fetching) guides to start learning Refine.

@@ -55,7 +55,6 @@ function BlogListPageContent(props) {
           "blog-md:max-w-[656px]",
           "blog-lg:max-w-[896px]",
           "blog-max:max-w-[1200px]",
-          "blog-max:border-t border-t-refine-react-3 dark:border-t-refine-react-7",
           "mb-12",
         )}
       >

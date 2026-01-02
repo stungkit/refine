@@ -1,6 +1,6 @@
 ---
-title: Refine v5 is here!
-description: Refine v5 brings React 19 support, TanStack Query v5, cleaner APIs, and automatic migration with codemods.
+title: Refine CORE v5 is here!
+description: Refine CORE v5 brings React 19 support, TanStack Query v5, cleaner APIs, and automatic migration with codemods.
 slug: refine-v5-announcement
 authors: ozgur
 tags: [refine, react, announcement]
@@ -137,9 +137,9 @@ The upgrade to TanStack Query v5 means your data management layer is built on th
 Ready to upgrade? Our automated migration makes it super easy:
 
 1. Run the codemod: `npx @refinedev/codemod@latest refine4-to-refine5`
-2. Check our [migration guide](/docs/migration-guide/4x-to-5x) for any edge cases
+2. Check our [migration guide](/core/docs/migration-guide/4x-to-5x) for any edge cases
 
-For detailed technical information, see our [complete migration guide](/docs/migration-guide/4x-to-5x).
+For detailed technical information, see our [complete migration guide](/core/docs/migration-guide/4x-to-5x).
 
 ## Conclusion
 

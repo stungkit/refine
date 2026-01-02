@@ -1,13 +1,13 @@
 import {
-  DocumentsIcon,
-  IntegrationsIcon,
-  TutorialIcon,
-  ExamplesIcon,
-  AwesomeIcon,
   AboutUsIcon,
-  MeetIcon,
+  AwesomeIcon,
   BlogIcon,
+  DocumentsIcon,
+  ExamplesIcon,
+  IntegrationsIcon,
+  MeetIcon,
   NewBadgeIcon,
+  TutorialIcon,
 } from "../icons/popover";
 
 export type NavbarPopoverItemType = {
@@ -38,13 +38,13 @@ export const MENU_ITEMS: MenuItemType[] = [
       {
         label: "Documentation",
         description: "Everything you need to get started.",
-        link: "/docs/",
+        link: "/core/docs/",
         icon: DocumentsIcon,
       },
       {
         label: "Tutorial",
         description: "Create your first Refine application.",
-        link: "/tutorial/essentials/intro",
+        link: "/core/tutorial/essentials/intro",
         icon: TutorialIcon,
       },
       {
@@ -56,13 +56,13 @@ export const MENU_ITEMS: MenuItemType[] = [
       {
         label: "Integrations",
         description: "Discover the Refine ecosystem.",
-        link: "/integrations",
+        link: "/core/integrations",
         icon: IntegrationsIcon,
       },
       {
         label: "Templates",
         description: "Ready-made examples for your project",
-        link: "/templates",
+        link: "/core/templates",
         icon: ExamplesIcon,
       },
       {
@@ -82,7 +82,7 @@ export const MENU_ITEMS: MenuItemType[] = [
   {
     isPopover: false,
     label: "Enterprise",
-    href: "/enterprise",
+    href: "/core/enterprise",
   },
   {
     isPopover: true,
@@ -91,7 +91,7 @@ export const MENU_ITEMS: MenuItemType[] = [
       {
         label: "About Refine",
         description: "Team & company information.",
-        link: "/about",
+        link: "/core/about",
         icon: AboutUsIcon,
       },
       {

@@ -11,28 +11,16 @@ export const menuItems = [
     label: "Resources",
     items: [
       {
-        label: "Getting Started",
-        href: "/docs/getting-started/quickstart",
+        label: "Documentation",
+        href: "/core/docs/getting-started/quickstart",
       },
       {
         label: "Tutorials",
-        href: "/tutorial/essentials/intro",
+        href: "/core/tutorial/essentials/intro",
       },
       {
         label: "Blog",
         href: "/blog",
-      },
-      {
-        label: "Templates",
-        href: "/templates",
-      },
-      {
-        label: "Integrations",
-        href: "/integrations",
-      },
-      {
-        label: "Awesome Refine",
-        href: "https://github.com/refinedev/awesome-refine",
       },
     ],
   },
@@ -40,33 +28,18 @@ export const menuItems = [
     label: "Product",
     items: [
       {
-        label: "Refine AI",
-        icon: <NewBadgeIcon />,
-        href: "/ai",
+        label: "Templates",
+        href: "/core/templates",
+        icon: null,
       },
       {
-        label: "Enterprise",
-        href: "/enterprise",
+        label: "Integrations",
+        href: "/core/integrations",
+        icon: null,
       },
     ],
   },
-  {
-    label: "Community",
-    items: [
-      {
-        label: "Contributing",
-        href: "/docs/guides-concepts/contributing/",
-      },
-      {
-        label: "RefineWeeks",
-        href: "/week-of-refine",
-      },
-      {
-        label: "Hackathons",
-        href: "https://s.refine.dev/hackathon2",
-      },
-    ],
-  },
+
   {
     label: "Company",
     items: [
@@ -83,13 +56,13 @@ export const menuItems = [
 ];
 
 export const secondaryMenuItems = [
-  // {
-  //     label: "Terms & Conditions",
-  //     href: "#",
-  // },
+  {
+    label: "Terms & Conditions",
+    href: "/terms-and-conditions",
+  },
   {
     label: "Privacy Policy",
-    href: "/privacy-policy",
+    href: "/core/privacy-policy",
   },
   {
     label: "License",

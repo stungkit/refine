@@ -1,14 +1,14 @@
-import React, { useMemo, useRef } from "react";
-import clsx from "clsx";
 import Link from "@docusaurus/Link";
 import {
-  useSidebarBreadcrumbs,
   useHomePageRoute,
+  useSidebarBreadcrumbs,
 } from "@docusaurus/theme-common/internal";
 import { translate } from "@docusaurus/Translate";
-import { HomeIcon } from "./icons/home";
-import { ChevronRightIcon } from "./icons/chevron-right";
+import clsx from "clsx";
+import React, { useMemo, useRef } from "react";
 import { useTWBreakpoints } from "../hooks/use-tw-breakpoints";
+import { ChevronRightIcon } from "./icons/chevron-right";
+import { HomeIcon } from "./icons/home";
 
 const hiddenBreadcrumbText = "...";
 
@@ -71,8 +71,8 @@ export const DocBreadcrumbs = () => {
             itemProp="itemListElement"
             itemType="https://schema.org/ListItem"
           >
-            <Link href="/docs" itemProp="item">
-              <HomeIcon className="text-gray-400 dark:text-gray-500" />
+            <Link href="/core/docs" itemProp="item">
+              <HomeIcon className="text-zinc-500 dark:text-zinc-400" />
               <span className="sr-only" itemProp="name">
                 Documentation
               </span>
@@ -94,12 +94,12 @@ export const DocBreadcrumbs = () => {
                 itemProp="itemListElement"
                 itemType="https://schema.org/ListItem"
               >
-                <ChevronRightIcon className="text-gray-400 dark:text-gray-500" />
+                <ChevronRightIcon className="text-zinc-300 dark:text-zinc-400" />
                 {item.href && !isLast ? (
                   <Link
                     href={item.href}
                     className={clsx(
-                      "text-gray-500 dark:text-gray-400",
+                      "text-zinc-500 dark:text-zinc-400",
                       "text-base",
                     )}
                     itemProp="item"
@@ -111,8 +111,8 @@ export const DocBreadcrumbs = () => {
                   <span
                     className={clsx(
                       isLast
-                        ? "text-gray-400 dark:text-gray-500"
-                        : "text-gray-500 dark:text-gray-400",
+                        ? "text-zinc-500 dark:text-zinc-400"
+                        : "text-zinc-700 dark:text-zinc-300",
                     )}
                     itemProp="item"
                     itemID="#"
@@ -124,8 +124,8 @@ export const DocBreadcrumbs = () => {
               </li>
               {idx === 0 && breadcrumbList.length > 1 && renderDots ? (
                 <li className={clsx("flex flex-row flex-nowrap")}>
-                  <ChevronRightIcon className="text-gray-400 dark:text-gray-500" />
-                  <div className="text-gray-500 dark:text-gray-400">
+                  <ChevronRightIcon className="text-zinc-300 dark:text-zinc-400" />
+                  <div className="text-zinc-500 dark:text-zinc-400">
                     {hiddenBreadcrumbText}
                   </div>
                 </li>
