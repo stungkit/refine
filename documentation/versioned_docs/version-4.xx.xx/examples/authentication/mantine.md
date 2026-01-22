@@ -1,6 +1,8 @@
 ---
 id: mantine
-title: Authentication in Mantine
+title: "Mantine Auth Pages | Refine v4 Integration Example"
+display_title: "Authentication in Mantine"
+description: "Clean and modern authentication pages using Mantine and Refine v4. Get started with these ready-made login and registration templates."
 sidebar_label: Authentication
 example-title: Authentication with Mantine
 example-tags: [mantine, auth-provider]

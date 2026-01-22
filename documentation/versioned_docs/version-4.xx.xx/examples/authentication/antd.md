@@ -1,6 +1,8 @@
 ---
 id: antd
-title: Authentication in Ant Design
+title: "Ant Design Auth Pages | Refine v4 Login & Register"
+display_title: "Authentication in Ant Design"
+description: "Beautifully designed Ant Design authentication pages for Refine v4. Ready-to-use login, register, and forgot password examples."
 sidebar_label: Authentication
 example-title: Authentication with Ant Design
 example-tags: [antd, auth-provider]

@@ -1,5 +1,8 @@
 ---
-title: <Link />
+title: "Refine Link Component | Optimized Navigation"
+display_title: "<Link />"
+sidebar_label: "<Link />"
+description: "Use the Refine v4 Link component for internal navigation. Ensure SEO-friendly and performance-optimized routing in your React app."
 source: packages/core/src/components/link/index.tsx
 ---
 

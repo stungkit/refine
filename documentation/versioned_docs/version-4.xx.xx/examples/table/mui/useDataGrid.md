@@ -1,6 +1,9 @@
 ---
 id: useDataGrid
-title: useDataGrid
+title: "MUI useDataGrid Hook | Refine v4 Table Integration"
+display_title: "useDataGrid"
+sidebar_label: "useDataGrid"
+description: "Master the useDataGrid hook for Material UI in Refine v4. Seamlessly connect MUI's powerful Data Grid to your Refine data providers."
 example-title: Material UI's useDataGrid Hook
 example-tags: [table, mui]
 ---

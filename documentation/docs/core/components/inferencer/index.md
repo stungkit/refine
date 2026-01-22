@@ -1,5 +1,8 @@
 ---
-title: Inferencer
+title: "Inferencer Component | Components in Refine v5"
+display_title: "Inferencer"
+sidebar_label: "Inferencer"
+description: "Set up Inferencer in Refine v5. Learn best practices. Learn best practices for best practices for real-world React admin panels. Real-world snippets included."
 ---
 
 You can automatically generate views for your resources using `@refinedev/inferencer`. Inferencer exports `HeadlessListInferencer`, `HeadlessShowInferencer`, `HeadlessEditInferencer`, `HeadlessCreateInferencer`, and finally `HeadlessInferencer` components, the last of which combines all in one place.

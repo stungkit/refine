@@ -1,6 +1,8 @@
 ---
-title: <AutoSaveIndicator />
-description: <AutoSaveIndicator /> component shows `autoSave` status on edit actions.
+title: "shadcn/ui Auto Save Indicator Component | UI Component in Refine v5"
+display_title: "<AutoSaveIndicator />"
+sidebar_label: "<AutoSaveIndicator />"
+description: "Integrate Auto Save Indicator in Refine v5. Learn best practices. Learn integrate Radix UI, Tailwind CSS for polished admin UIs. Explore with code snippets."
 source: https://github.com/refinedev/refine/tree/main/packages/refine-ui/registry/new-york/refine-ui/form/auto-save-indicator.tsx
 ---
 

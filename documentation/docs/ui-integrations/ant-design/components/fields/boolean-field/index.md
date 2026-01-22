@@ -1,5 +1,8 @@
 ---
-title: Boolean
+title: "Ant Design Boolean Field Component | UI Component in Refine v5"
+display_title: "Boolean"
+sidebar_label: "Boolean"
+description: "Integrate Boolean Field in Refine v5. Learn best practices. Learn integration patterns for enterprise UI, components for polished admin UIs."
 swizzle: true
 ---
 

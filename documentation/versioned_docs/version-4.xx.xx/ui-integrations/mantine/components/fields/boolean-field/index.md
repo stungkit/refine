@@ -1,5 +1,8 @@
 ---
-title: Boolean
+title: "Mantine BooleanField | Refine v4 Data Display"
+display_title: "Boolean"
+sidebar_label: "Boolean"
+description: "Display boolean values with checkmarks and icons using Mantine. Official documentation for the BooleanField component in Refine v4."
 swizzle: true
 ---
 

@@ -1,5 +1,8 @@
 ---
-title: useDrawerForm
+title: "useDrawerForm Hook | Mantine & Refine v4 Forms"
+display_title: "useDrawerForm"
+sidebar_label: "useDrawerForm"
+description: "Documentation for building side-drawer forms in Mantine. Learn how to manage create and edit states using the useDrawerForm hook."
 ---
 
 The [`useModalForm`][use-modal-form-refine-mantine] hook allows you to manage a form within a `<Modal>` as well as a `<Drawer>`. It provides some useful methods to handle the form `<Modal>` or form `<Drawer>`.

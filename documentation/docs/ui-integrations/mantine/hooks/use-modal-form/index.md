@@ -1,5 +1,8 @@
 ---
-title: useModalForm
+title: "useModalForm Hook | Best Practices for Usage & Patterns | Refine v5"
+display_title: "useModalForm"
+sidebar_label: "useModalForm"
+description: "Integrate Use Modal Form in Refine v5. Learn best practices. Explore customization options for values for polished admin UIs. Hands-on examples included."
 ---
 
 `useModalForm` hook also allows you to manage a form inside a modal component. It provides some useful methods to handle the form modal.

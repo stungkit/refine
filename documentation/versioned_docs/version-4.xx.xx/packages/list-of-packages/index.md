@@ -1,5 +1,8 @@
 ---
-title: List of Packages
+title: "Refine v4 Ecosystem | Official Packages List"
+display_title: "List of Packages"
+sidebar_label: "List of Packages"
+description: "Explore the full list of official Refine v4 packages. Find data providers, UI integrations, and utility tools for your React applications."
 ---
 
 - `@refinedev/core` - Collection of `hooks`, `components` and `providers` for **authentication**, **access control**, **routing**, **networking**, **state management** and **i18n**. Your starting point for headless projects.

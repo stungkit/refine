@@ -1,6 +1,9 @@
 ---
 id: custom-form-validation
-title: Custom Form Validation
+title: "Custom Form Validation Guide | Refine v4 & React Hook Form"
+display_title: "Custom Form Validation"
+sidebar_label: "Custom Form Validation"
+description: "Implement advanced validation rules in Refine v4 forms. Learn how to handle complex schemas and async validation for better data integrity."
 ---
 
 In **Refine**, we can use the form validation that comes with `Ant Design` with the [rules](https://ant.design/components/form/#Rule) property of the [Form.Item](https://ant.design/components/form/#Form.Item) component.

@@ -1,6 +1,9 @@
 ---
 id: useModalForm
-title: useModalForm
+title: "UseModalForm Example | Best Practices in Refine v5: Mantine"
+display_title: "useModalForm"
+sidebar_label: "useModalForm"
+description: "Integrate UseModalForm in Refine v5. Learn best practices. Learn React UI library, components for real-world React admin panels. Hands-on examples included."
 example-tags: [form, mantine]
 ---
 

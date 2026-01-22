@@ -1,5 +1,8 @@
 ---
-title: License
+title: "Refine v4 License Information | Open Source Terms"
+display_title: "License"
+sidebar_label: "License"
+description: "Understand the licensing terms for Refine v4. Detailed information about open-source usage, permissions, and enterprise legal requirements."
 ---
 
 # Overview

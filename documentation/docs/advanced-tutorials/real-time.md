@@ -1,6 +1,8 @@
 ---
 id: real-time
-title: Live / Realtime
+title: "Real Time Tutorial | Best Practices in Refine v5"
+display_title: "Live / Realtime"
+description: "Integrate Real Time in Refine v5. Learn best practices. Learn advanced patterns for subscriptions, live updates for production-ready workflows."
 sidebar_label: Live / Realtime
 ---
 
@@ -201,7 +203,7 @@ We can also implement a similar thing on the show page.
 :::
 
 <br/>
-<img src="https://refine.ams3.cdn.digitaloceanspaces.com/website/static/img/guides-and-concepts/real-time/manual-mode.gif" alt="Manual Mode Demo" />
+<img src="https://refine.ams3.cdn.digitaloceanspaces.com/website/static/img/guides-and-concepts/real-time/manual-mode.avif" alt="Manual Mode Demo" />
 
 ## Custom Subscriptions
 

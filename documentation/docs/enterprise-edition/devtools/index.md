@@ -1,5 +1,8 @@
 ---
-title: Devtools
+title: "Devtools Guide | Enterprise Edition in Refine v5"
+display_title: "Devtools"
+sidebar_label: "Devtools"
+description: "Set up Devtools in Refine v5. Learn best practices. Learn custom and environment for real-world React admin panels. Hands-on examples included."
 ---
 
 import DockerUsage from "./docker.tsx";

@@ -1,6 +1,8 @@
 ---
 id: auth0
-title: Auth0 Login
+title: "Auth0 Integration Guide | Secure Refine v4 Authentication"
+display_title: "Auth0 Login"
+description: "Connect Auth0 with your Refine v4 project. Step-by-step guide to setting up secure social login and enterprise identity management."
 sidebar_label: Auth0 Login
 ---
 
@@ -97,7 +99,7 @@ export const Login: React.FC = () => {
 
 After clicking the `Login` button, you will be directed to the auth0 login screen.
 
-<img src="https://refine.ams3.cdn.digitaloceanspaces.com/website/static/img/guides-and-concepts/auth0/auth0-login-min.gif" className="border border-gray-200 rounded" alt="auth0-login" />
+<img src="https://refine.ams3.cdn.digitaloceanspaces.com/website/static/img/guides-and-concepts/auth0/auth0-login-min.avif" className="border border-gray-200 rounded" alt="auth0-login" />
 
 ## Auth Provider
 

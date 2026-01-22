@@ -1,5 +1,8 @@
 ---
-title: Theming
+title: "Theming Guide | Best Practices in Refine v5"
+display_title: "Theming"
+sidebar_label: "Theming"
+description: "Set up Theming in Refine v5. Learn best practices. Learn integration patterns for themes and theme for polished admin UIs. Learn with code examples."
 ---
 
 Ant Design allows you to customize design tokens to satisfy UI diversity from business or brand requirements, including primary color, border radius, border color, etc.

@@ -1,6 +1,9 @@
 ---
 id: table-search
-title: Table Search
+title: "Advanced Table Search | Refine v4 Data Grid Filtering"
+display_title: "Table Search"
+sidebar_label: "Table Search"
+description: "Master table-specific search techniques in Refine v4. Implement high-performance filtering for complex data grids and tables."
 ---
 
 We can make extensive search / filter operations using the `useTable` hook on the listing pages.

@@ -1,5 +1,8 @@
 ---
-title: Data Fetching
+title: "Data Fetching Guide | Best Practices in Refine v5"
+display_title: "Data Fetching"
+sidebar_label: "Data Fetching"
+description: "Learn to implement Data Fetching in Refine v5. Explore best practices for open and provider for real-world React admin panels. Real-world snippets included."
 ---
 
 import UseOne from "./use-one";
@@ -25,7 +28,7 @@ Once you provide `data provider` to Refine, you can utilize our data hooks (`use
 
 Moreover, Refine offers support for multiple data providers, allowing you to use different data providers for different resources. For instance, you can use **REST** for the `posts` endpoint and **GraphQL** for the `users` query.
 
-<Image src="https://refine.ams3.cdn.digitaloceanspaces.com/website/static/img/guides-and-concepts/providers/data-provider/api-consuming-flow.png" />
+<Image src="https://refine.ams3.cdn.digitaloceanspaces.com/website/static/img/guides-and-concepts/providers/data-provider/api-consuming-flow.webp" />
 
 ## Fetching Data
 

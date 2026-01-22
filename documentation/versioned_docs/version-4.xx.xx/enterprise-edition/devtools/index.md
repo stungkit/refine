@@ -1,5 +1,8 @@
 ---
-title: Devtools
+title: "Refine v4 DevTools | Advanced Debugging & Tuning"
+display_title: "Devtools"
+sidebar_label: "Devtools"
+description: "Speed up your development with Refine DevTools. Monitor application state and optimize performance directly in your React environment."
 ---
 
 import DockerUsage from "./docker.tsx";

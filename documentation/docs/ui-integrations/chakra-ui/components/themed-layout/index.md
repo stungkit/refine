@@ -1,6 +1,8 @@
 ---
-title: <ThemedLayout />
-description: <ThemedLayout> component from Refine, defines the overall structure and layout of a web page.
+title: "Chakra UI ThemedLayout Component | Layout in Refine v5"
+display_title: "<ThemedLayout />"
+sidebar_label: "<ThemedLayout />"
+description: "Set up ThemedLayout in Refine v5. Learn best practices. Learn integrate accessibility, components for polished admin UIs. See practical code samples."
 swizzle: true
 source: packages/chakra-ui/src/components/themedLayout/index.tsx
 ---

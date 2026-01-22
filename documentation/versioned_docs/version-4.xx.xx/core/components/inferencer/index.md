@@ -1,5 +1,8 @@
 ---
-title: Inferencer
+title: "Refine v4 Inferencer | Rapid Prototyping for React CRUD"
+display_title: "Inferencer"
+sidebar_label: "Inferencer"
+description: "Auto-generate your CRUD pages in seconds. Use the Refine v4 Inferencer to create views directly from your API response schema."
 ---
 
 You can automatically generate views for your resources using `@refinedev/inferencer`. Inferencer exports `HeadlessListInferencer`, `HeadlessShowInferencer`, `HeadlessEditInferencer`, `HeadlessCreateInferencer`, and finally `HeadlessInferencer` components, the last of which combines all in one place.

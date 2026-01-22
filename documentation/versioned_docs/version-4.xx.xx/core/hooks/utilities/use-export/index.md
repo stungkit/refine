@@ -1,5 +1,8 @@
 ---
-title: useExport
+title: "useExport Hook | CSV Data Export in Refine v4"
+display_title: "useExport"
+sidebar_label: "useExport"
+description: "Add data export features to your tables. Use the useExport hook to download resource collections as CSV files directly from Refine v4."
 ---
 
 `useExport` hook allows you to export data as a `CSV` file. It calls the `getList` method of your data provider and downloads the data as a `CSV` file.

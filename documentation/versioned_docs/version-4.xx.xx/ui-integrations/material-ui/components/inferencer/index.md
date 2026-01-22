@@ -1,5 +1,8 @@
 ---
-title: Inferencer
+title: "MUI Inferencer | Refine v4 Auto-Code Generation"
+display_title: "Inferencer"
+sidebar_label: "Inferencer"
+description: "Speed up your MUI project with the Inferencer. Documentation on auto-generating CRUD pages, forms, and tables from your API schema."
 ---
 
 You can automatically generate views for your resources using `@refinedev/inferencer`. Inferencer exports `MuiListInferencer`, `MuiShowInferencer`, `MuiEditInferencer`, `MuiCreateInferencer` components and finally the `MuiInferencer` component, which combines all in one place.

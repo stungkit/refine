@@ -1,5 +1,8 @@
 ---
-title: Email
+title: "Mantine EmailField | Refine v4 UI Components"
+display_title: "Email"
+sidebar_label: "Email"
+description: "Documentation for the Mantine EmailField. Learn how to display clickable email links in your Refine v4 based React admin panels."
 swizzle: true
 ---
 

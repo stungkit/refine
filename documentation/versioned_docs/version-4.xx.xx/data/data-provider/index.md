@@ -1,5 +1,8 @@
 ---
-title: Data Provider
+title: "Data Provider Concept | Refine v4 Data"
+display_title: "Data Provider"
+sidebar_label: "Data Provider"
+description: "Understand how data providers work in Refine v4. Learn how to connect REST, GraphQL, or custom APIs to your application."
 ---
 
 import SupportedDataProviders from "@site/src/partials/data-provider/supported-data-providers.md";
@@ -15,7 +18,7 @@ You don’t need to worry about creating data providers from scratch, as Refine 
 
 :::
 
-<Image src="https://refine.ams3.cdn.digitaloceanspaces.com/website/static/img/guides-and-concepts/providers/data-provider/api-consuming-flow.png" />
+<Image src="https://refine.ams3.cdn.digitaloceanspaces.com/website/static/img/guides-and-concepts/providers/data-provider/api-consuming-flow.webp" />
 
 ## Usage
 

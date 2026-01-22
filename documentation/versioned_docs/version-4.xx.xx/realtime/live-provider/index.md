@@ -1,5 +1,8 @@
 ---
-title: Live Provider
+title: "Live Provider Guide | Real-time React CRUD Apps"
+display_title: "Live Provider"
+sidebar_label: "Live Provider"
+description: "Implement real-time capabilities in Refine v4. Learn how to configure Live Providers for instant data synchronization and notifications."
 ---
 
 **Live Provider** is Refine's built-in provider that enables real-time updates and interactions between the server and the client. Refine being agnostic as always allows you to integrate any solution of your choice

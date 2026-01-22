@@ -1,6 +1,9 @@
 ---
 id: serverSideFormValidation
-title: Server-Side Form Validation
+title: "ServerSideFormValidation Example | Accessibility in Refine v5"
+display_title: "Server-Side Form Validation"
+sidebar_label: "Server-Side Form Validation"
+description: "Implement ServerSideFormValidation in Refine v5. Learn the key steps. Explore best practices for accessibility, components for real-world React admin panels."
 example-tags: [form, chakra-ui, react-hook-form]
 ---
 

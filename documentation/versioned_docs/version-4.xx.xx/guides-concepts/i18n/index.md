@@ -1,5 +1,8 @@
 ---
-title: Internationalization (i18n)
+title: "i18n Concepts | Internationalization in Refine"
+display_title: "Internationalization (i18n)"
+sidebar_label: "Internationalization (i18n)"
+description: "Master multi-language support. Learn the core concepts of implementing i18n in Refine v4 for global React applications."
 ---
 
 import I18nHeadless from './i18n-headless.tsx';
@@ -401,7 +404,7 @@ export interface IPost {
 }
 ```
 
-<Image src="https://refine.ams3.cdn.digitaloceanspaces.com/website/static/img/i18n/changing-language.gif" alt="Language change action" />
+<Image src="https://refine.ams3.cdn.digitaloceanspaces.com/website/static/img/i18n/changing-language.avif" alt="Language change action" />
 
 ## Translation file
 

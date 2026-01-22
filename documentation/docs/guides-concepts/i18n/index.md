@@ -1,5 +1,8 @@
 ---
-title: Internationalization (i18n)
+title: "I18n Guide | Localization in Refine v5"
+display_title: "Internationalization (i18n)"
+sidebar_label: "Internationalization (i18n)"
+description: "Build i18n in Refine v5. Learn the key steps. Explore translation and common.json for real-world React admin panels. See practical code samples."
 ---
 
 import I18nHeadless from './i18n-headless.tsx';
@@ -401,7 +404,7 @@ export interface IPost {
 }
 ```
 
-<Image src="https://refine.ams3.cdn.digitaloceanspaces.com/website/static/img/i18n/changing-language.gif" alt="Language change action" />
+<Image src="https://refine.ams3.cdn.digitaloceanspaces.com/website/static/img/i18n/changing-language.avif" alt="Language change action" />
 
 ## Translation file
 

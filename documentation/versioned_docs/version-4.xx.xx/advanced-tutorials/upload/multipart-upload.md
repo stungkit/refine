@@ -1,6 +1,9 @@
 ---
 id: multipart-upload
-title: Multipart Upload
+title: "Multipart File Uploads | Refine v4 Media Management"
+display_title: "Multipart Upload"
+sidebar_label: "Multipart Upload"
+description: "Learn how to handle large file uploads using Multipart/form-data in Refine v4. Essential guide for cloud storage and API integrations."
 ---
 
 ```tsx live shared

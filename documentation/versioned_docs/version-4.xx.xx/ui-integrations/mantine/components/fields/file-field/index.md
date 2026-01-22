@@ -1,5 +1,8 @@
 ---
-title: File
+title: "Mantine FileField | Refine v4 Media Display"
+display_title: "File"
+sidebar_label: "File"
+description: "Manage and display file links and downloads in Mantine. Official guide for the FileField component within the Refine v4 ecosystem."
 swizzle: true
 ---
 

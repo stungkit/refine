@@ -1,5 +1,8 @@
 ---
-title: Notification Provider
+title: "Notification Provider Guide | Notification in Refine v5"
+display_title: "Notification Provider"
+sidebar_label: "Notification Provider"
+description: "Build Notification Provider in Refine v5. Learn the key steps. Explore open for real-world React admin panels. Real-world snippets included."
 ---
 
 Refine let's you set a notification API by providing the `notificationProvider` property to the `<Refine>` component.

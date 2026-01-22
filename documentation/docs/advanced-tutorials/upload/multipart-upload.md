@@ -1,6 +1,9 @@
 ---
 id: multipart-upload
-title: Multipart Upload
+title: "Multipart Upload Guide | FormData & File Handling in Refine v5"
+display_title: "Multipart Upload"
+sidebar_label: "Multipart Upload"
+description: "Secure Multipart Upload in Refine v5. Learn best practices. Learn advanced patterns for form and posts for production-ready workflows."
 ---
 
 ```tsx live shared

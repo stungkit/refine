@@ -1,5 +1,8 @@
 ---
-title: Access Control Provider
+title: "Access Control Provider Guide | Best Practices in Refine v5"
+display_title: "Access Control Provider"
+sidebar_label: "Access Control Provider"
+description: "Build Access Control Provider in Refine v5. Learn the key steps. Learn how to secure RBAC, ABAC for secure enterprise React apps. Hands-on examples included."
 ---
 
 Access control is a broad topic with lots of advanced solutions that provide different sets of features.

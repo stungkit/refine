@@ -1,6 +1,9 @@
 ---
 id: handling-filters
-title: Handling Filters
+title: "Advanced Filtering Logic | Refine v4 Data Providers"
+display_title: "Handling Filters"
+sidebar_label: "Handling Filters"
+description: "Master complex server-side filtering in Refine v4. Learn how to handle nested filters and custom operators within your data provider."
 ---
 
 **Refine** expects an array of type `CrudFilters` to filter results based on some field’s values. So you can use more than one filter. Even the `or` operator can be used to combine multiple filters.

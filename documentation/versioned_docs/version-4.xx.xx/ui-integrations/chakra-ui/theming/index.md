@@ -1,5 +1,8 @@
 ---
-title: Theming
+title: "Chakra UI Theming Guide | Customizing Refine v4"
+display_title: "Theming"
+sidebar_label: "Theming"
+description: "Personalize your admin dashboard. Documentation on customizing Chakra UI themes, colors, and responsive styles in Refine v4."
 ---
 
 ```tsx live shared

@@ -1,6 +1,9 @@
 ---
 id: useStepsForm
-title: useStepsForm
+title: "UseStepsForm Example | React UI Library in Refine v5"
+display_title: "useStepsForm"
+sidebar_label: "useStepsForm"
+description: "Secure UseStepsForm in Refine v5. Learn best practices. Learn React UI library, components for real-world React admin panels. Hands-on examples included."
 example-tags: [form, mantine]
 ---
 

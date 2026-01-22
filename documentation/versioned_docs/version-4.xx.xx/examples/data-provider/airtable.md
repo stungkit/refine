@@ -1,6 +1,9 @@
 ---
 id: airtable
-title: Airtable
+title: "Airtable Example | Refine v4 Data Integration"
+display_title: "Airtable"
+sidebar_label: "Airtable"
+description: "See Refine v4 in action with Airtable. A practical example of using Airtable as a backend for your React CRUD applications."
 example-tags: [data-provider]
 ---
 

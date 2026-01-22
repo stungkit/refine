@@ -1,6 +1,8 @@
 ---
-title: useGetIdentity
-description: useGetIdentity data hook from Refine is a modified version of react-query's useQuery for retrieving user data
+title: "useGetIdentity Hook | Managing User Profiles in Refine v4"
+display_title: "useGetIdentity"
+sidebar_label: "useGetIdentity"
+description: "Fetch current user details effortlessly. Use useGetIdentity to display user names, avatars, and profiles across your Refine v4 project."
 source: /packages/core/src/hooks/auth/useGetIdentity/index.ts
 ---
 

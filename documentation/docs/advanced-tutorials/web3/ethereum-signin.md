@@ -1,6 +1,9 @@
 ---
 id: ethereum-signin
-title: Sign in with Ethereum Web3 Wallet
+title: "Ethereum Signin Tutorial | Workflows in Refine v5"
+display_title: "Sign in with Ethereum Web3 Wallet"
+sidebar_label: "Sign in with Ethereum Web3 Wallet"
+description: "Secure Ethereum Signin in Refine v5. Learn best practices. Explore production tips for wallet and dashboard for production-ready workflows."
 ---
 
 ## Introduction
@@ -194,7 +197,7 @@ export const Login: React.FC = () => {
 </p>
 </details>
 
-<img src="https://refine.ams3.cdn.digitaloceanspaces.com/website/static/img/guides-and-concepts/web3/login-min.gif" alt="ethereum-login" className="border border-zinc-200 rounded" />
+<img src="https://refine.ams3.cdn.digitaloceanspaces.com/website/static/img/guides-and-concepts/web3/login-min.avif" alt="ethereum-login" className="border border-zinc-200 rounded" />
 
 ## Create Dashboard
 
@@ -415,7 +418,7 @@ export const DashboardPage: React.FC = () => {
 
 We can now request to send ethereum through our **Refine** dashboard and also view your account details on [Etherscan Ropsten Test Network](https://ropsten.etherscan.io/)
 
-<img src="https://refine.ams3.cdn.digitaloceanspaces.com/website/static/img/guides-and-concepts/web3/overview-min.gif" alt="refine-overview" className="border border-zinc-200 rounded" />
+<img src="https://refine.ams3.cdn.digitaloceanspaces.com/website/static/img/guides-and-concepts/web3/overview-min.avif" alt="refine-overview" className="border border-zinc-200 rounded" />
 
 ## Example
 

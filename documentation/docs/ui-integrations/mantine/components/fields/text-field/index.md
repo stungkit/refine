@@ -1,5 +1,8 @@
 ---
-title: Text
+title: "Mantine Text Field Component | UI Component in Refine v5"
+display_title: "Text"
+sidebar_label: "Text"
+description: "Implement Text Field in Refine v5. Learn the key steps. Learn integrate React UI library, components for polished admin UIs. Hands-on examples included."
 swizzle: true
 ---
 

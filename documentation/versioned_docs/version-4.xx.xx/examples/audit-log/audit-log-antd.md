@@ -1,6 +1,9 @@
 ---
 id: audit-log-antd
-title: Audit Log with Antd
+title: "Ant Design Audit Logs | Refine v4 Activity Tracking"
+display_title: "Audit Log with Antd"
+sidebar_label: "Audit Log with Antd"
+description: "A practical example of displaying activity logs using Ant Design in Refine v4. Monitor user actions with a clean UI."
 example-tags: [audit-log-provider, antd]
 example-title: Audit Log with Antd
 ---

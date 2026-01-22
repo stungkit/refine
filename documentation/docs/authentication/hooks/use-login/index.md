@@ -1,6 +1,8 @@
 ---
-title: useLogin
-description: useLogin data hook from Refine is a modified version of react-query's useMutation for authentication.
+title: "useLogin Hook | Authentication in Refine v5"
+display_title: "useLogin"
+sidebar_label: "useLogin"
+description: "Integrate Use Login in Refine v5. Learn best practices. Explore secure patterns for OAuth, JWT for secure enterprise React apps. Real-world snippets included."
 source: /packages/core/src/hooks/auth/useLogin/index.ts
 ---
 

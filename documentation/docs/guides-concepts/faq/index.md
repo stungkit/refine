@@ -1,5 +1,7 @@
 ---
-title: Frequently Asked Questions
+title: "Faq Guide | Best Practices in Refine v5"
+display_title: "Frequently Asked Questions"
+description: "Integrate Faq in Refine v5. Learn best practices. Learn data and property for real-world React admin panels. Real-world snippets included."
 sidebar_label: FAQ
 ---
 

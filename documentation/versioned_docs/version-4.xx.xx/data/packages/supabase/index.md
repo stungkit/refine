@@ -1,5 +1,8 @@
 ---
-title: Supabase
+title: "Supabase Data Provider | Refine v4 & Postgres"
+display_title: "Supabase"
+sidebar_label: "Supabase"
+description: "Build fast apps with Supabase and Refine v4. Implement authentication and database management using the official Supabase data provider."
 source: https://github.com/refinedev/refine/tree/main/packages/supabase
 swizzle: true
 ---
@@ -1367,7 +1370,7 @@ You will find the Google Auth option in the Auth providers section; enable it an
 
 Here is the result:
 
-<img src="https://refine.ams3.cdn.digitaloceanspaces.com/website/static/img/guides-and-concepts/data-provider/supabase/social-login-min.gif" className="border border-gray-200 rounded" alt="socialLogin" />
+<img src="https://refine.ams3.cdn.digitaloceanspaces.com/website/static/img/guides-and-concepts/data-provider/supabase/social-login-min.avif" className="border border-gray-200 rounded" alt="socialLogin" />
 
 ## Let's recap what we have done so far
 
@@ -1420,7 +1423,7 @@ For live features to work automatically, we set `liveMode: "auto"` in the option
 
 ### Let see how real-time feature works in the app
 
-<img src="https://refine.ams3.cdn.digitaloceanspaces.com/website/static/img/guides-and-concepts/data-provider/supabase/real-time-min.gif" className="border border-gray-200 rounded" alt="realTime" />
+<img src="https://refine.ams3.cdn.digitaloceanspaces.com/website/static/img/guides-and-concepts/data-provider/supabase/real-time-min.avif" className="border border-gray-200 rounded" alt="realTime" />
 
 :::tip
 

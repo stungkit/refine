@@ -1,5 +1,8 @@
 ---
-title: Audit Log Provider
+title: "Audit Log Provider Guide | Activity Logs in Refine v5"
+display_title: "Audit Log Provider"
+sidebar_label: "Audit Log Provider"
+description: "Build Audit Log Provider in Refine v5. Learn the key steps. Explore best practices for event for compliance and traceability. Hands-on examples included."
 ---
 
 import Tabs from '@theme/Tabs';

@@ -1,6 +1,9 @@
 ---
 id: nextjs
-title: With Next.js
+title: "Refine v4 Next.js Integration | Getting Started"
+display_title: "With Next.js"
+sidebar_label: "With Next.js"
+description: "Build powerful admin panels with Next.js and Refine v4. Explore our official example and learn best practices for SSR and routing."
 example-tags: [next.js]
 ---
 

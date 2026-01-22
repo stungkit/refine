@@ -1,6 +1,8 @@
 ---
-title: <AutoSaveIndicator />
-description: <AutoSaveIndicator> component shows `autoSave` status on edit actions.
+title: "Chakra UI AutoSaveIndicator | Refine v4 UX"
+display_title: "<AutoSaveIndicator />"
+sidebar_label: "<AutoSaveIndicator />"
+description: "Enhance your forms with real-time feedback. Learn how to use the Chakra UI AutoSaveIndicator for background data saving in Refine v4."
 source: packages/chakra-ui/src/components/autoSaveIndicator/index.tsx
 ---
 

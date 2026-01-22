@@ -1,6 +1,8 @@
 ---
 id: refine-themes-mui
-title: Refine Themes in Material UI
+title: "Material UI Custom Themes | Refine v4 Design Guide"
+display_title: "Refine Themes in Material UI"
+description: "Customize Material UI in Refine v4. A guide to creating, applying, and managing themes for a consistent brand experience."
 sidebar_label: Refine Themes
 example-title: Material UI
 example-tags: [mui, customization]

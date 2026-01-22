@@ -1,6 +1,8 @@
 ---
 id: advanced
-title: Advanced Tables with Material UI
+title: "Advanced Example | Pagination in Refine v5"
+display_title: "Advanced Tables with Material UI"
+description: "Learn to build with the Advanced example in Refine v5. Learn best practices for pagination, sorting for real-world React admin panels."
 sidebar_label: Advanced Table
 example-title: Advanced Material UI Table
 example-tags: [table, mui]

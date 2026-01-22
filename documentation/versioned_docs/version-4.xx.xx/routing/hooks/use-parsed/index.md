@@ -1,5 +1,8 @@
 ---
-title: useParsed
+title: "useParsed Hook | URL Parameter Parsing in Refine"
+display_title: "useParsed"
+sidebar_label: "useParsed"
+description: "Access route parameters and resource data easily. Learn how to use the useParsed hook to extract data from the current URL in v4."
 ---
 
 `useParsed` is a hook that leverages the `parse` method of the [`routerProvider`][routerprovider] to access the URL and query parameters along with the inferred `resource`, `action` and `id` from the URL.

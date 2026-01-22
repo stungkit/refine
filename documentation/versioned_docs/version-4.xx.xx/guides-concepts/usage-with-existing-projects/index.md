@@ -1,5 +1,8 @@
 ---
-title: Usage with Existing Projects
+title: "Using Refine v4 in Existing Projects | Guide"
+display_title: "Usage with Existing Projects"
+sidebar_label: "Usage with Existing Projects"
+description: "Learn how to incrementally adopt Refine v4. Strategies for integrating Refine's powerful hooks into your current React applications."
 ---
 
 Integrating Refine into an existing project is as simple as installing `@refinedev/core` package and importing `Refine` component into your application.

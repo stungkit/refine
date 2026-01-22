@@ -1,5 +1,8 @@
 ---
-title: Contributing
+title: "Contributing to Refine | Open Source Guide"
+display_title: "Contributing"
+sidebar_label: "Contributing"
+description: "Join the Refine community. Learn how to contribute to the core framework, documentations, and ecosystem to help grow the project."
 ---
 
 We follow a [code of conduct](https://github.com/refinedev/refine/blob/main/CODE_OF_CONDUCT) when participating in the community. Please read it before you make any contributions.

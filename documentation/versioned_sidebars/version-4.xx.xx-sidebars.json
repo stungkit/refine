@@ -56,7 +56,8 @@
           "label": "Advanced Tutorials",
           "link": {
             "type": "generated-index",
-            "title": "Advanced Tutorials",
+            "title": "Advanced Refine v4 Tutorials | Mastering React CRUD Development",
+            "description": "Step-by-step advanced guides for Refine v4. Learn complex workflows, custom integrations, and professional patterns for modern React admin panels.",
             "slug": "/advanced-tutorials"
           },
           "items": [
@@ -896,7 +897,7 @@
     },
     {
       "type": "category",
-      "label": "Migration Guide 🚀",
+      "label": "Migration Guide \ud83d\ude80",
       "className": "category-as-header",
       "items": [
         "migration-guide/3x-to-4x",
