@@ -4,7 +4,7 @@ description: What is an internal tool? Explore types, use cases, and benefits of
 slug: what-is-internal-tools
 authors: ozgur
 tags: [internal-tools, product, Refine]
-image: https://refine.ams3.cdn.digitaloceanspaces.com/blog/2026-01-21-what-is-internal-tools/what-is-internal-tools-banner
+image: https://refine.ams3.cdn.digitaloceanspaces.com/blog/2026-01-21-what-is-internal-tools/internal-tools-blog.webp
 hide_table_of_contents: false
 is_featured: false
 ---
