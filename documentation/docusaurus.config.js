@@ -44,6 +44,16 @@ const siteConfig = {
   favicon: "assets/favicon.svg",
   onBrokenLinks: "warn",
   scripts: ["https://platform.twitter.com/widgets.js"],
+  headTags: [
+    {
+      tagName: "script",
+      innerHTML: `
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('config', 'G-PSTZ6M7LTY');
+      `,
+    },
+  ],
   presets: [
     [
       "@docusaurus/preset-classic",
