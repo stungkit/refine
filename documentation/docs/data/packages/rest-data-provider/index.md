@@ -111,7 +111,7 @@ To implement `getList` effectively, you need to understand how data flows betwee
 When Refine calls `getList`, it provides these parameters:
 
 - `resource`: the name of the collection (e.g. `"posts"`)
-- `pagination`: `{ current, pageSize }`
+- `pagination`: `{ currentPage, pageSize }`
 - `sorters`: `[ { field, order } ]`
 - `filters`: `[ { field, operator, value } ]`
 
