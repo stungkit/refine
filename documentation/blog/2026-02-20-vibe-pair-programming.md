@@ -1,6 +1,6 @@
 ---
 title: "Pair Programming vs AI Pair Programming: Is This the New Normal?"
-description: "Is AI the new partner in code? Explore the shift from traditional Pair Programming to AI tools and see why this evolution is becoming the new industry norm.
+description: "Is AI the new partner in code? Explore the shift from traditional Pair Programming to AI tools and see why this evolution is becoming the new industry norm."
 slug: pair-programming-vs-ai-pair-programming
 authors: arda
 tags: [ai]
