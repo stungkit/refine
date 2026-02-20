@@ -8,8 +8,6 @@ image: https://refine.ams3.cdn.digitaloceanspaces.com/blog/2026-02-18-enterprise
 hide_table_of_contents: false
 ---
 
-# Pair Programming vs AI Pair Programming: Is This the New Normal?
-
 According to Stack Overflow's 2025 Developer Survey, 78% of developers say AI makes them more productive. Yet a 2025 randomized controlled trial found tasks took 19% longer when developers used AI assistants. Both findings are valid.
 
 The gap between how productive we _feel_ and how productive we _are_ sits at the heart of the AI pair programming debate. Developers report saving hours per week with tools like GitHub Copilot and Cursor. But when researchers measure end-to-end delivery, the gains often disappear into extra debugging and review time.
