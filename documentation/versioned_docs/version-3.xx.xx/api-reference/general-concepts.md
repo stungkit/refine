@@ -4,7 +4,7 @@ title: General Concepts
 ---
 
 - **refine** core is fully independent of UI. So you can use core components and hooks without any UI dependency.
-- All the **data** related hooks([`useTable`](/core/docs/3.xx.xx/api-reference/core/hooks/useTable/), [`useForm`](/core/docs/3.xx.xx/api-reference/core/hooks/useForm), [`useList`](/core/docs/3.xx.xx/api-reference/core/data/hooks/useList) etc.) of **refine** can be given some common properties like `resource`, `metaData`, `queryOptions` etc.
+- All the **data** related hooks([`useTable`](/core/docs/3.xx.xx/api-reference/core/hooks/useTable/), [`useForm`](/core/docs/3.xx.xx/api-reference/core/hooks/useForm), [`useList`](/core/docs/3.xx.xx/api-reference/core/hooks/data/useList) etc.) of **refine** can be given some common properties like `resource`, `metaData`, `queryOptions` etc.
 
 ### `resource`
 
