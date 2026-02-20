@@ -319,7 +319,7 @@ create: async ({ resource, variables, metaData }) => {
 | variables | `TVariables`                 | `{}`    |
 | metaData? | [`MetaDataQuery`][meta-data] |
 
-> `TVariables` is a user defined type which can be passed to [`useCreate`](/core/docs/3.xx.xx/api-reference/core/data/hooks/useCreate#type-parameters) to type `variables`.
+> `TVariables` is a user defined type which can be passed to [`useCreate`](/core/docs/3.xx.xx/api-reference/core/hooks/data/useCreate#type-parameters) to type `variables`.
 
 ### update <PropTag required />
 
