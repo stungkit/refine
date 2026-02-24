@@ -17,18 +17,6 @@ Founded in 2019, The Browser Company spent six years building a team and product
 
 This article examines The Browser Company's complete timeline, analyzing their strategic decisions, technical innovations, market positioning, and the factors that led to their eventual acquisition. We'll explore both their successes and the obstacles they encountered along the way.
 
-Steps we'll cover:
-
-- [The Birth of The Browser Company](#the-birth-of-the-browser-company)
-- [The Vision Behind Arc Browser](#the-vision-behind-arc-browser)
-- [Arc's Revolutionary Features](#arcs-revolutionary-features)
-- [Building a Community](#building-a-community)
-- [The Introduction of Dia](#the-introduction-of-dia)
-- [Challenges and Growth](#challenges-and-growth)
-- [The Atlassian Acquisition](#the-atlassian-acquisition)
-- [What's Next for Arc and The Browser Company](#whats-next-for-arc-and-the-browser-company)
-- [Lessons from The Browser Company's Journey](#lessons-from-the-browser-companies-journey)
-
 ## The Birth of The Browser Company
 
 Josh Miller's background as a Facebook product manager gave him firsthand experience with how people actually use digital tools. After leaving Facebook, he spent time observing user behavior and became convinced that browsers had failed to evolve with the internet itself. While websites became more sophisticated and web applications replaced desktop software, browsers remained fundamentally unchanged since the early 2000s.
