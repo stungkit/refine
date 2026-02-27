@@ -6,6 +6,19 @@ import BlogPostItemContainer from "@theme/BlogPostItem/Container";
 import { Date as DateComponent } from "@site/src/components/blog/common";
 import clsx from "clsx";
 
+const Dot = () => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={6}
+    height={6}
+    viewBox="0 0 6 6"
+    fill="none"
+    className={clsx("flex-shrink-0", "text-zinc-300 dark:text-zinc-600")}
+  >
+    <circle cx={3} cy={3} r={3} fill="currentColor" />
+  </svg>
+);
+
 export default function BlogPostItem({ className }) {
   const { metadata } = useBlogPost();
   const {
@@ -95,19 +108,7 @@ export default function BlogPostItem({ className }) {
           </Link>
           {author && (
             <>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width={6}
-                height={6}
-                viewBox="0 0 6 6"
-                fill="none"
-                className={clsx(
-                  "flex-shrink-0",
-                  "text-zinc-300 dark:text-zinc-600",
-                )}
-              >
-                <circle cx={3} cy={3} r={3} fill="currentColor" />
-              </svg>
+              <Dot />
               <Link
                 to={`/blog/author/${author.key}/`}
                 className={clsx(
@@ -127,19 +128,7 @@ export default function BlogPostItem({ className }) {
               </Link>
             </>
           )}
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width={6}
-            height={6}
-            viewBox="0 0 6 6"
-            fill="none"
-            className={clsx(
-              "flex-shrink-0",
-              "text-zinc-300 dark:text-zinc-600",
-            )}
-          >
-            <circle cx={3} cy={3} r={3} fill="currentColor" />
-          </svg>
+          <Dot />
           <DateComponent date={date} formattedDate={formattedDate} />
         </div>
         <div>
